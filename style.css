@@ -1,0 +1,54 @@
+body {
+    background-color: teal;
+    display: grid;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.outer-box {
+    width: 310px;
+    height: 210px;
+    display:grid;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    margin:auto;
+}
+
+.inner-box {
+    width: 300px;
+    height: 200px;  
+    display: grid;  
+    background-color: blueviolet; 
+    border-radius: 15px;
+    margin: auto;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.greeting {
+    font-size: xx-large;
+    color: white;
+    justify-self: center;
+}
+
+.name {
+    font-size: large;
+    color: white;
+    justify-self: center;
+}
+
+.white-field {
+    width: 100%;
+    color: black;
+    font-size:x-large;
+    font-family: cursive;
+    font-weight: bold;
+    justify-self: center;
+    text-align: center;
+}
+
+section {
+    display: block;
+    background-color: white;
+    grid-row: 3/4;
+}
