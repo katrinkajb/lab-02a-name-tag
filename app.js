@@ -30,17 +30,14 @@ pronounButton.addEventListener('click', () => {
 
 //change background
 pinkButton.addEventListener('click', () => {
-    console.log('pink');
     body.style.backgroundColor = 'pink';
 })
 
 blueButton.addEventListener('click', () => {
-    console.log('pink');
     body.style.backgroundColor = 'blue';
 })
 
 yellowButton.addEventListener('click', () => {
-    console.log('pink');
     body.style.backgroundColor = 'yellow';
 })
 
@@ -53,9 +50,9 @@ fontList.addEventListener('change', () => {
 })
 
 fontList.addEventListener('change', () => {
-    nameField.style.fontFamily = "Noto Sans";
+    nameField.style.fontFamily = "Hanalei Fill";
 })
 
 fontList.addEventListener('change', () => {
-    nameField.style.fontFamily = "Hanalei Fill";
+    nameField.style.fontFamily = "Noto Sans";
 })
