@@ -39,10 +39,7 @@ blueButton.addEventListener('click', () => {
 
 yellowButton.addEventListener('click', () => {
     body.style.backgroundColor = 'yellow';
-})
-
-
-// Placeholder font names   
+}) 
 
 // Change font
 fontList.addEventListener('change', () => {
