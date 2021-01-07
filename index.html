@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body id = 'body'>
+    <header>
+        <input id = 'name-input'>
+        <button id = 'name-button'>Add Name</button> 
+        
+        </br>
+        <input id = 'pronoun-input'>
+        <button id = 'pronoun-button'>Add Pronouns</button>
+    </header>
     <main class="outer-box">
         <div class="inner-box">
             <h1 class="greeting">
@@ -15,9 +28,25 @@
             <h2 class="name">
                 my name is
             </h2>
-            <section class="white-field">Bob Loblaw</section>
-            <footer></footer>
+            <section id="white-field">Bob Loblaw</section>
+            <div id = "pronoun-field">he/him</div>
         </div>
     </main>
+    <footer class = 'background-buttons'>
+        <button id = 'pink-button'>Pink Background</button>
+        <button id = 'blue-button'>Blue Background</button>
+        <button id = 'yellow-button'>Yellow Background</button>
+        </br>
+        <div>
+            <select id = 'font-list'>
+                <option value = "1">Change Font</option>
+                <option value = "Roboto">Roboto</option>
+                <option value = "Hanalei">Hanalei</option>
+                <option value = "3">3</option>
+
+            </select>
+        </div>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>

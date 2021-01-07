@@ -5,6 +5,12 @@ body {
     font-family: sans-serif;
 }
 
+header {
+    justify-self: center;
+    margin: 15px;
+    padding: 5px;
+}
+
 .outer-box {
     width: 310px;
     height: 210px;
@@ -37,18 +43,40 @@ body {
     justify-self: center;
 }
 
-.white-field {
+#white-field {
     width: 100%;
     color: black;
-    font-size:x-large;
+    font-size:xx-large;
     font-family: cursive;
     font-weight: bold;
     justify-self: center;
     text-align: center;
 }
 
+#pronoun-field {
+    color: white;
+    font-size:xx-large;
+    font-family: cursive;
+    font-weight: bold;
+    justify-self: center;
+}
+
 section {
     display: block;
     background-color: white;
     grid-row: 3/4;
+}
+
+button {
+    border-radius: 5%;
+}
+
+.background-buttons {
+    justify-self: center;
+    margin: 10px;
+}
+
+#font-list {
+    justify-self: center;
+    margin: 15px;
 }
