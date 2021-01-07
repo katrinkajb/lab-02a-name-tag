@@ -18,8 +18,6 @@ const body = document.getElementById('body');
 const fontList = document.getElementById('font-list');
 
 
-
-
 // add name
 nameButton.addEventListener('click', () => {
     nameField.textContent = nameInput.value;
@@ -50,12 +48,14 @@ yellowButton.addEventListener('click', () => {
 // Placeholder font names   
 
 // Change font
-fontList.addEventListener('change', (e) => {
-    nameField.style.fontFamily = "Roboto";
+fontList.addEventListener('change', () => {
+    nameField.style.fontFamily = "roboto";
 })
 
-fontList.addEventListener('change', (e) => {
-    console.log(e.target.value);
+fontList.addEventListener('change', () => {
+    nameField.style.fontFamily = "Noto Sans";
+})
+
+fontList.addEventListener('change', () => {
     nameField.style.fontFamily = "Hanalei Fill";
 })
-
